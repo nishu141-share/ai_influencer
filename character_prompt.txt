@@ -1,0 +1,8 @@
+Prompt:
+(realistic:1.3), (photorealistic:1.3), 1girl, asian woman, korean, 20 years old, beautiful detailed face, soft makeup, brown eyes, long black hair, elegant, friendly smile, warm lighting, cinematic detailed, 8k, depth of field.
+
+Negative Prompt:
+(worst quality, low quality:1.4), cartoon, 3d, render, illustration, painting, deformities, bad anatomy, bad hands, text, watermark.
+
+Styles (in Fooocus):
+"Fooocus V2", "Fooocus Photograph", "Fooocus Sharp"
