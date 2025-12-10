@@ -1,0 +1,45 @@
+{
+    "influencer": {
+        "name": "AI Tech Influencer",
+        "persona": "Attractive Asian woman tech influencer",
+        "niche": "Technology & AI",
+        "target_audience": "Tech enthusiasts, developers, AI learners",
+        "content_style": "Educational, engaging, trendy",
+        "posting_schedule": "daily",
+        "platforms": [
+            "youtube",
+            "tiktok",
+            "instagram"
+        ]
+    },
+    "video_settings": {
+        "long_form": {
+            "duration": "5-10 minutes",
+            "format": "1920x1080",
+            "fps": 30
+        },
+        "short_form": {
+            "duration": "30-60 seconds",
+            "format": "1080x1920",
+            "fps": 30
+        }
+    },
+    "avatar": {
+        "image_path": "test_character.png",
+        "voice_style": "female, professional, friendly",
+        "language": "en"
+    },
+    "content_preferences": {
+        "topics": [
+            "AI trends",
+            "Tech tutorials",
+            "Coding tips",
+            "AI tools review",
+            "Tech news"
+        ],
+        "avoid_topics": [
+            "politics",
+            "controversial subjects"
+        ]
+    }
+}

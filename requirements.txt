@@ -1,0 +1,64 @@
+# ============================================================================
+# AI Influencer Automation - Requirements
+# ============================================================================
+# This file combines dependencies from:
+# - gemini-youtube-automation
+# - Text-To-Video-AI
+# - Your existing SadTalker setup
+# ============================================================================
+
+# ===== Gemini API and Google Services =====
+google-generativeai>=0.3.0
+google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.5.0
+
+# ===== Text-to-Speech =====
+gTTS>=2.3.0
+pydub>=0.25.1
+
+# ===== Video Editing and Processing =====
+moviepy==1.0.3
+opencv-python>=4.8.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+
+# ===== Image Processing =====
+Pillow==9.5.0
+
+# ===== API Clients =====
+requests>=2.31.0
+pexels-api>=1.0.0
+
+# ===== Environment and Configuration =====
+python-dotenv>=1.0.0
+
+# ===== SadTalker Dependencies (if using locally) =====
+# Uncomment these if running SadTalker locally
+# torch>=2.0.0
+# torchvision>=0.15.0
+# torchaudio>=2.0.0
+# face-alignment>=1.3.5
+# librosa>=0.10.0
+# numba>=0.57.0
+# numpy>=1.24.0
+# scipy>=1.10.0
+# tqdm>=4.65.0
+# yacs>=0.1.8
+
+# ===== Utilities =====
+tqdm>=4.65.0
+colorama>=0.4.6
+
+# ===== Optional: Better TTS (if you want to upgrade from gTTS) =====
+# edge-tts>=6.1.0
+# elevenlabs>=0.2.0
+
+# ===== Optional: YouTube Upload =====
+# google-auth>=2.0.0
+# google-auth-oauthlib>=0.5.0
+
+# ===== Development Tools =====
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
