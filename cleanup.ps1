@@ -38,11 +38,13 @@ function Remove-ItemSafe {
             Remove-Item -Path $Path -Recurse -Force
             Write-Host "✅ Removed: $Description" -ForegroundColor Green
             $script:removed += $Description
-        } catch {
+        }
+        catch {
             Write-Host "❌ Failed to remove: $Description" -ForegroundColor Red
             $script:failed += $Description
         }
-    } else {
+    }
+    else {
         Write-Host "⏭️  Skipped (not found): $Description" -ForegroundColor Gray
     }
 }
@@ -87,11 +89,11 @@ if ($failed.Count -gt 0) {
 }
 
 Write-Host ""
-Write-Host "📊 Disk space freed: Run 'Get-ChildItem -Recurse | Measure-Object -Property Length -Sum' to check" -ForegroundColor Cyan
+Write-Host "📊 Disk space freed: Check with dir command" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "✅ Cleanup complete!" -ForegroundColor Green
 Write-Host ""
 Write-Host "Next steps:" -ForegroundColor Cyan
 Write-Host "1. Test the system: python main.py --video-type short_form" -ForegroundColor White
-Write-Host "2. Commit changes: git add . && git commit -m 'Cleaned up project'" -ForegroundColor White
+Write-Host "2. Commit changes to git" -ForegroundColor White
 Write-Host ""
